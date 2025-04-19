@@ -30,12 +30,12 @@ jobs:
         run: |
           pwd
           python -m pip install --upgrade pip 
-          pip install -r LQExamPB/requirements/test_requirements.txt
+          pip install -r /home/runner/work/LQExamPB/LQExamPB/requirements/test_requirements.txt
 
       - name: Train pipeline
         run: |
           pwd
-          python LQExamPB/bikeshare_model/train_pipeline.py
+          python /home/runner/work/LQExamPB/LQExamPB/bikeshare_model/train_pipeline.py
 
       - name: Test with pytest
         run: |
