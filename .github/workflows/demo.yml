@@ -30,6 +30,7 @@ jobs:
         run: |
           pwd
           python -m pip install --upgrade pip 
+          pip install -r /home/runner/work/LQExamPB/LQExamPB/requirements/requirements.txt
           pip install -r /home/runner/work/LQExamPB/LQExamPB/requirements/test_requirements.txt
 
       - name: Train pipeline
