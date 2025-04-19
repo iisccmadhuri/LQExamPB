@@ -1,6 +1,7 @@
 # Makefile
 install:
-	pip install --upgrade pip && pip install -r requirements.txt
+	pwd	
+	pip install --upgrade pip && pip install -r pip install -r /home/runner/work/LQExamPB/requirements/requirements.txt
 format:
 	black *.py
 lint:
